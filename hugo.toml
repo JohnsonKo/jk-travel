@@ -2,7 +2,8 @@ baseURL = 'https://johnsonko.github.io/jk-travel/'
 languageCode = 'zh-tw'
 title = 'JK Travel | 旅遊住宿推薦'
 theme = 'PaperMod'
-paginate = 10
+[pagination]
+  pagerSize = 10
 
 [params]
   env = "production"
