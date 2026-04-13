@@ -1,0 +1,28 @@
+baseURL = 'https://johnsonko.github.io/jk-travel/'
+languageCode = 'zh-tw'
+title = 'JK Travel | 旅遊住宿推薦'
+theme = 'PaperMod'
+paginate = 10
+
+[params]
+  env = "production"
+  description = "精選全球飯店住宿推薦，含即時房價與訂房連結"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = false
+  ShowToc = true
+
+  [params.homeInfoParams]
+    Title = "JK Travel"
+    Content = "精選全球飯店住宿推薦，幫你找到最划算的住宿選擇"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
