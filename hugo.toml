@@ -17,6 +17,12 @@ buildFuture = true
   ShowCodeCopyButtons = false
   ShowToc = true
 
+[params.analytics.google]
+  SiteVerificationTag = "G-C1W4X2Z4CZ"
+
+[services.googleAnalytics]
+  ID = "G-C1W4X2Z4CZ"
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
